@@ -83,7 +83,7 @@ main {
     }
 
     .search-container {
-        max-width: 284px;
+        max-width: 584px;
         width: 100%;
         position: relative;
         margin-bottom: 20px;
@@ -158,9 +158,40 @@ main {
             }
         }
     }
-
 }
 
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f2f2f2;
+    color: var(--font-color);
+    font-size: var(--font-size);
+
+    .footer-top {
+        padding: 10px 20px;
+        border-bottom: 1px solid #dadce0;
+    }
+
+    .footer-bottom {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 10px 20px;
+
+        a {
+            text-decoration: none;
+            color: var(--font-color);
+            justify-content: space-between;
+            padding: 10px 20px;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
 
 
 
